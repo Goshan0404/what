@@ -1,0 +1,11 @@
+[
+    {
+        "model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+        "split_function": "split_by_sentences",
+        "split_args": {
+            "max_chars": 400
+        },
+        "extract_function": "get_mean_embedding",
+        "top_10_accuracy": 0.7754638888888887
+    }
+]
